@@ -1,0 +1,37 @@
+---
+- name: 웹 서 버 설 치
+  hosts: seoul
+  gather_facts: no
+  become: true
+  tasks:
+    - name: git install
+      yum:
+        name: git
+        state: latest
+
+    - name: httpd install
+      yum:
+        name: httpd
+        state: latest
+
+    - name: httpd start
+      service:
+        name: httpd
+        state: started
+
+    - name: httpd port change
+      lineinfile:
+        path: /etc/httpd/conf/httpd.conf
+        regexp: '^Listen\s+'
+        line: 'Listen 80'
+      notify:
+        - restart httpd
+
+
+  handlers:
+    - name: restart httpd
+      service:
+        name: httpd
+        state: restarted
+        enabled: true 
+        

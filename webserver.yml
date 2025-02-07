@@ -1,0 +1,31 @@
+---
+- name: 배포판 별로 웹서버 설치
+  hosts: all
+  become: true
+  gather_facts: true
+
+  tasks:
+    - name: 아마존리눅스에 웹서버설치
+      action: "{{ ansible_pkg_mgr }} name=httpd state=latest"
+      when: ansible_distribution == 'Amazon'
+
+    - name: httpd 시작
+      service: name=httpd state=started
+      when: ansible_distribution == 'Amazon'
+
+    - name: index.html 만들기
+      get_url: url=https://www.amazon.com dest=/var/www/html/index.html
+      when: ansible_distribution == 'Amazon'
+
+    - name: 우분투에서 nginx 설치
+      action: "{{ ansible_pkg_mgr }} name=nginx state=present"
+      when: ansible_distribution == 'Ubuntu'
+
+    - name: nginx 시작
+      service: name=nginx state=started
+      when: ansible_distribution == 'Ubuntu'
+
+    - name: index.html 만들기
+      get_url: url=https://www.nginx.com dest=/var/www/html/index.html
+      when: ansible_distribution == 'Ubuntu'
+
