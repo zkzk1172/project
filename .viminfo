@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:wq
+|2,0,1738911275,,"wq"
 :q
 |2,0,1738909848,,"q"
-:wq
-|2,0,1738825880,,"wq"
 :Q
 |2,0,1738824002,,"Q"
 :WQ
@@ -68,36 +68,52 @@
 |3,0,36,0,1,0,1738825837,"i"
 
 # File marks:
-'0  7  0  ~/remove_webserver.yml
-|4,48,7,0,1738909848,"~/remove_webserver.yml"
-'1  17  37  ~/if_webserver.yml
-|4,49,17,37,1738825880,"~/if_webserver.yml"
-'2  10  0  ~/amazon.yml
-|4,50,10,0,1738825843,"~/amazon.yml"
-'3  13  0  ~/if_webserver.yml
-|4,51,13,0,1738825734,"~/if_webserver.yml"
+'0  7  11  ~/inv
+|4,48,7,11,1738911275,"~/inv"
+'1  7  0  ~/remove_webserver.yml
+|4,49,7,0,1738909848,"~/remove_webserver.yml"
+'2  17  37  ~/if_webserver.yml
+|4,50,17,37,1738825880,"~/if_webserver.yml"
+'3  10  0  ~/amazon.yml
+|4,51,10,0,1738825843,"~/amazon.yml"
 '4  13  0  ~/if_webserver.yml
 |4,52,13,0,1738825734,"~/if_webserver.yml"
-'5  11  50  ~/amazon.yml
-|4,53,11,50,1738825729,"~/amazon.yml"
-'6  15  50  ~/amazon.yml
-|4,54,15,50,1738825729,"~/amazon.yml"
-'7  13  0  ~/if_webserver.yml
-|4,55,13,0,1738825639,"~/if_webserver.yml"
+'5  13  0  ~/if_webserver.yml
+|4,53,13,0,1738825734,"~/if_webserver.yml"
+'6  11  50  ~/amazon.yml
+|4,54,11,50,1738825729,"~/amazon.yml"
+'7  15  50  ~/amazon.yml
+|4,55,15,50,1738825729,"~/amazon.yml"
 '8  13  0  ~/if_webserver.yml
 |4,56,13,0,1738825639,"~/if_webserver.yml"
-'9  11  19  ~/if_webserver.yml
-|4,57,11,19,1738825433,"~/if_webserver.yml"
+'9  13  0  ~/if_webserver.yml
+|4,57,13,0,1738825639,"~/if_webserver.yml"
 
 # Jumplist (newest first):
+-'  7  11  ~/inv
+|4,39,7,11,1738911275,"~/inv"
+-'  2  12  ~/inv
+|4,39,2,12,1738911233,"~/inv"
 -'  7  0  ~/remove_webserver.yml
 |4,39,7,0,1738909848,"~/remove_webserver.yml"
+-'  7  0  ~/remove_webserver.yml
+|4,39,7,0,1738909848,"~/remove_webserver.yml"
+-'  21  0  ~/remove_webserver.yml
+|4,39,21,0,1738909826,"~/remove_webserver.yml"
 -'  21  0  ~/remove_webserver.yml
 |4,39,21,0,1738909826,"~/remove_webserver.yml"
 -'  17  37  ~/if_webserver.yml
 |4,39,17,37,1738825880,"~/if_webserver.yml"
 -'  17  37  ~/if_webserver.yml
 |4,39,17,37,1738825880,"~/if_webserver.yml"
+-'  17  37  ~/if_webserver.yml
+|4,39,17,37,1738825880,"~/if_webserver.yml"
+-'  17  37  ~/if_webserver.yml
+|4,39,17,37,1738825880,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825846,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825846,"~/if_webserver.yml"
 -'  13  0  ~/if_webserver.yml
 |4,39,13,0,1738825846,"~/if_webserver.yml"
 -'  13  0  ~/if_webserver.yml
@@ -110,6 +126,14 @@
 |4,39,10,0,1738825843,"~/amazon.yml"
 -'  10  0  ~/amazon.yml
 |4,39,10,0,1738825843,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825843,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825843,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825843,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825843,"~/amazon.yml"
 -'  11  50  ~/amazon.yml
 |4,39,11,50,1738825766,"~/amazon.yml"
 -'  11  50  ~/amazon.yml
@@ -118,6 +142,22 @@
 |4,39,11,50,1738825766,"~/amazon.yml"
 -'  11  50  ~/amazon.yml
 |4,39,11,50,1738825766,"~/amazon.yml"
+-'  11  50  ~/amazon.yml
+|4,39,11,50,1738825766,"~/amazon.yml"
+-'  11  50  ~/amazon.yml
+|4,39,11,50,1738825766,"~/amazon.yml"
+-'  11  50  ~/amazon.yml
+|4,39,11,50,1738825766,"~/amazon.yml"
+-'  11  50  ~/amazon.yml
+|4,39,11,50,1738825766,"~/amazon.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825734,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825734,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825734,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825734,"~/if_webserver.yml"
 -'  13  0  ~/if_webserver.yml
 |4,39,13,0,1738825734,"~/if_webserver.yml"
 -'  13  0  ~/if_webserver.yml
@@ -142,6 +182,22 @@
 |4,39,15,50,1738825729,"~/amazon.yml"
 -'  15  50  ~/amazon.yml
 |4,39,15,50,1738825729,"~/amazon.yml"
+-'  15  50  ~/amazon.yml
+|4,39,15,50,1738825729,"~/amazon.yml"
+-'  15  50  ~/amazon.yml
+|4,39,15,50,1738825729,"~/amazon.yml"
+-'  15  50  ~/amazon.yml
+|4,39,15,50,1738825729,"~/amazon.yml"
+-'  15  50  ~/amazon.yml
+|4,39,15,50,1738825729,"~/amazon.yml"
+-'  15  50  ~/amazon.yml
+|4,39,15,50,1738825729,"~/amazon.yml"
+-'  15  50  ~/amazon.yml
+|4,39,15,50,1738825729,"~/amazon.yml"
+-'  15  50  ~/amazon.yml
+|4,39,15,50,1738825729,"~/amazon.yml"
+-'  15  50  ~/amazon.yml
+|4,39,15,50,1738825729,"~/amazon.yml"
 -'  10  0  ~/amazon.yml
 |4,39,10,0,1738825643,"~/amazon.yml"
 -'  10  0  ~/amazon.yml
@@ -158,6 +214,38 @@
 |4,39,10,0,1738825643,"~/amazon.yml"
 -'  10  0  ~/amazon.yml
 |4,39,10,0,1738825643,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825643,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825643,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825643,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825643,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825643,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825643,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825643,"~/amazon.yml"
+-'  10  0  ~/amazon.yml
+|4,39,10,0,1738825643,"~/amazon.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825639,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825639,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825639,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825639,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825639,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825639,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825639,"~/if_webserver.yml"
+-'  13  0  ~/if_webserver.yml
+|4,39,13,0,1738825639,"~/if_webserver.yml"
 -'  13  0  ~/if_webserver.yml
 |4,39,13,0,1738825639,"~/if_webserver.yml"
 -'  13  0  ~/if_webserver.yml
@@ -202,96 +290,36 @@
 |4,39,11,19,1738825449,"~/if_webserver.yml"
 -'  11  19  ~/if_webserver.yml
 |4,39,11,19,1738825449,"~/if_webserver.yml"
--'  11  19  ~/if_webserver.yml
-|4,39,11,19,1738825433,"~/if_webserver.yml"
--'  11  19  ~/if_webserver.yml
-|4,39,11,19,1738825433,"~/if_webserver.yml"
--'  11  19  ~/if_webserver.yml
-|4,39,11,19,1738825433,"~/if_webserver.yml"
--'  11  19  ~/if_webserver.yml
-|4,39,11,19,1738825433,"~/if_webserver.yml"
--'  11  19  ~/if_webserver.yml
-|4,39,11,19,1738825433,"~/if_webserver.yml"
--'  11  19  ~/if_webserver.yml
-|4,39,11,19,1738825433,"~/if_webserver.yml"
--'  11  19  ~/if_webserver.yml
-|4,39,11,19,1738825433,"~/if_webserver.yml"
--'  11  19  ~/if_webserver.yml
-|4,39,11,19,1738825433,"~/if_webserver.yml"
--'  22  51  ~/if_webserver.yml
-|4,39,22,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  22  51  ~/if_webserver.yml
-|4,39,22,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825421,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825384,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825384,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825384,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825384,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825384,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825384,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825384,"~/if_webserver.yml"
--'  16  51  ~/if_webserver.yml
-|4,39,16,51,1738825384,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
--'  8  30  ~/if_webserver.yml
-|4,39,8,30,1738825178,"~/if_webserver.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/inv
+	*	1738911274	0
+	"	7	11
+	^	7	12
+	.	7	11
+	+	9	12
+	+	1	4
+	+	9	29
+	+	9	2
+	+	9	65
+	+	9	3
+	+	9	0
+	+	9	30
+	+	9	0
+	+	9	8
+	+	9	58
+	+	9	30
+	+	9	28
+	+	9	2
+	+	8	0
+	+	1	7
+	+	7	11
+	+	9	0
+	+	2	0
+	+	3	12
+	+	6	12
+	+	7	11
 
 > ~/remove_webserver.yml
 	*	1738909832	0
@@ -348,31 +376,6 @@
 	+	11	0
 	+	11	27
 	+	11	0
-
-> ~/inv
-	*	1738824423	0
-	"	3	0
-	^	2	0
-	.	2	0
-	+	9	12
-	+	1	4
-	+	9	29
-	+	9	2
-	+	9	65
-	+	9	3
-	+	9	0
-	+	9	30
-	+	9	0
-	+	9	8
-	+	9	58
-	+	9	30
-	+	9	28
-	+	9	2
-	+	8	0
-	+	1	7
-	+	7	11
-	+	9	0
-	+	2	0
 
 > ~/include_tasks_webserver.yml
 	*	1738822866	0
