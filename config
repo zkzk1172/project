@@ -1,0 +1,17 @@
+
+Host 172.31.9.174
+  User ec2-user
+  IdentityFile ~/lab-iac-0205.pem
+  StrictHostKeyChecking no
+Host 172.31.10.229
+  User ec2-user
+  IdentityFile ~/lab-iac-0205.pem
+  StrictHostKeyChecking no
+Host 172.31.15.121
+  User ubuntu
+  IdentityFile ~/lab-iac-0205.pem
+  StrictHostKeyChecking no
+Host 172.31.4.200
+  User ubuntu
+  IdentityFile ~/lab-iac-0205.pem
+  StrictHostKeyChecking no
